@@ -1,3 +1,6 @@
 O que acontece quando voce inicializa um repositorio e porque voce precisa disso?
--Quando voce inicializa um repositorio (git init), voce transforma aquela pasta comum de arquivos em um repositorio git, isto e, a partir de agora, os arquivos sao monitorados pelo git e voce pode salvar commits sempre que fizer alguma alteracao.
+-Quando voce inicializa um repositorio (git init), voce transforma aquela pasta comum de arquivos em um repositorio git, isto e, a partir de agora, os arquivos podem ser monitorados pelo git e voce pode salvar commits sempre que fizer alguma alteracao.
+
+O que faz da staging area um local diferente do working directory e do repository?
+-O staging area e o local onde voce coloca os arquivos antes de enviar para o repositorio, como um pacote aberto, assim voce pode adicionar um ou mais arquivos ao pacote antes de fechalo e enviar para o repositorio.
 
