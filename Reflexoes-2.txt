@@ -1,0 +1,3 @@
+O que acontece quando voce inicializa um repositorio e porque voce precisa disso?
+-Quando voce inicializa um repositorio (git init), voce transforma aquela pasta comum de arquivos em um repositorio git, isto e, a partir de agora, os arquivos sao monitorados pelo git e voce pode salvar commits sempre que fizer alguma alteracao.
+

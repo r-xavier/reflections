@@ -1,0 +1,32 @@
+Como visualizar o diff entre duas verssoes ajuda voce a encontrar bugs?
+-Voce consegue ver rapidamente o que mudou entre as duas versoes. O que nao houver mudado nao vem ao caso em uma comparacao.
+Porque eu deveria faze-lo?
+-Encontrar diferencas manualmente e facil quando se trata de algo com poucas linhas, mas ao se comparar um arquivo com centenas ou ate milhares de linhas isso se torna uma tarefa entediante e, muitas vezes, ineficaz.
+Como eu posso faze-lo?
+-No windows podemos usar o prompt de comando, ir ate a pasta onde estao as duas versoes (cd "pasta"/) e usar o comando "FC 'arquivo-antigo' 'arquivo-novo'" para visualizar as diferencas.
+-No linux ou mac podemos usar o terminal para ir ate a pasta onde se localizam os dois arquivos (cd "pasta"/) e usar o comando "diff -u 'arquivo-antigo' 'arquivo-novo'" para ver as diferencas.
+
+cd ~                          # change directories to your
+home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl Reflexoes-1.txt # launch sublime with file
+called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+ls -a #list the files in this directory, including the hidden ones
+
+Porque decidir quando criar um commit e melhor do que criar commits automaticamente?
+-Quando voce cria commits manualmente, voce decide quando as alteracoes fazem algum sentido para que seja criada uma versao do arquivo com essa mudanca. Quando os commits sao salvos automaticamente, muitas vezes voce tera uma versao em que as mudancas nao fazem muito sentido ou estao incompletas.
+
+Porque o git permite salvar diversos arquivos em um so commit enquanto outros tratam cada arquivo separadamente?
+-O git faz isso para permitir que dois arquivos interligados ou que dependam um do outro possam ser comparados em conjunto, como uma biblioteca de funcoes de um programa por exemplo.
+
+Como usar git log e git diff para ver o historico dos arquivos?
+-Para ver todos os commits do historico, usamos git log e visualizamos todos os commits feitos, com informacoes basicas e uma descricao do que foi feito. Quando encontrarmos o que queremos, basta apertar q para sair do log e voltar a linha de comando. Para ver as diferencas entre dois commits, usamos git diff e teremos todas as diferencas entre as duas versoes do arquivo. Novamente, basta apertar q para voltar a linha de comando.
+
+Como usar um controle de versao te deixa mais confiante em fazer mudancas em seus arquivos?
+-Usando o controle de versao voce pode fazer alteracoes sem medo de avacalhar seu arquivo para sempre, pois se fizer algo errado, podera corrigir o bug ou voltar ao estado anterior sem problemas.
+
