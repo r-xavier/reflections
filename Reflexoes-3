@@ -1,2 +1,6 @@
 Quando e preferivel usar o seu repositorio remoto em vez de manter todo o seu trabalho localmente?
 -Usar o repositorio remoto e preferivel quando voce esta trabalhando em algo com mais de um colaborador, ou quando voce trabalha em mais de um computador.
+
+Porque voce deve preferir sempre faer o push e pull manualmente ao inves do git fazer isso automaticamente por voce?
+-Muitas vees voce pode ainda nao ter finalizado o que esta trabalhando, ou ainda nao quer compartilhar isso com ninguem, ou voce esta so fazendo alguns testes. Em casos como estes, ter tudo atualizado automaticamente seria um saco, porque voce teria alteracoes desnecessarias ou nao finaliadas sendo atualizadas no diretorio remoto.
+
