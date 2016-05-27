@@ -7,3 +7,13 @@ O que faz da staging area um local diferente do working directory e do repositor
 Quando e como usar um novo branch?
 -Um novo branch deve ser usado quando voce quer trabalhar em algo como uma versao diferente de um arquivo mas quer manter o original intacto. Como, por exemplo, quando voce esta trabalhando em um novo componente, mas ainda nao quer adiciona-lo ao projeto original. Mais tarde voce pode unir os dois branches novamente para tornar-los um so projeto com esse novo componente ja funcionando.
 
+ Como criar diagramas te ajuda a entender o conceito de branches?
+ -Usando diagramas, voce pode desenhar uma especie de linha do tempo e, cada branch, cria um no na linha, gerando uma bifurcacao onde uma linha nao afeta a outra. Com isso e possivel trabalhar em coisas separadas mantendo a linha original intacta. Os diagramas tornam isso bem mais facil de visualizar e de se situar em seu proprio projeto.
+
+ Qual o resultado de "merge" dois branches e como representamos isso no nosso diagrama?
+ -Quando fazemos o merge entre dois branches, nos ciramos um branch que contem todos os commits (e todas as modificacoes) criados em cada branch, mantendo o que nao foi alterado, adicionando o que foi acrescido nos dois branches e deletando o que foi excluido em um ou mais deles. No nosso diagrama, podemos representar isso unindo os dois branches por linhas e criando um novo branch resultante.
+
+ Quais sao os pros e contras de mesclar automaticamente vs mesclar manualmente?
+ -Mesclar automaticamente e bastante rapido e pratico quando nao ha conflitos entre os branches, mas criaria arquivos ininteligiveis se o programa tivesse que decidir que mudancas manter e talvez estes nem compilassem. Mesclar manualmente requer muito trabalho e atencao, mas garante o minimo de chance de erro quando os branches tem conflitos.
+
+ 
